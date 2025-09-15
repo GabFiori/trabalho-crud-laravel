@@ -1,19 +1,19 @@
 # CRUD de Livros em Laravel
 
-Este é o projeto final para a disciplina de Introdução a Laravel, consistindo em um sistema de Gerenciamento, Leitura, Atualização e Deleção (CRUD) para uma entidade de Livros.
+Este é o projeto final para a unidade curricular Desenvolvimento Web: Introdução ao Laravel, consistindo em um sistema de Gerenciamento, Leitura, Atualização e Deleção para uma entidade de Livros.
 
-## [cite_start]O que foi implementado [cite: 36]
+## O que foi implementado
 
 O projeto cumpre com todos os requisitos obrigatórios solicitados:
 
-* [cite_start]**Autenticação Ativa:** O CRUD é exclusivo para usuários autenticados[cite: 18].
-* [cite_start]**Rotas Resource:** Utiliza o padrão de rotas `resource` do Laravel para todas as operações do CRUD (`index`, `create`, `store`, `edit`, `update`, `destroy`)[cite: 19].
-* [cite_start]**Validação no Servidor:** Os formulários de criação e edição possuem validação server-side para garantir a integridade dos dados[cite: 20].
-* [cite_start]**Mensagens de Sessão (Flash):** O sistema exibe mensagens de sucesso após a criação, atualização ou exclusão de um registro[cite: 21].
-* [cite_start]**Views Limpas:** As telas foram desenvolvidas com HTML e CSS personalizados para uma interface simples e legível[cite: 22].
-* [cite_start]**Tratamento de "Estado Vazio":** A página de listagem exibe uma mensagem específica quando nenhum livro está cadastrado[cite: 23].
+* **Autenticação Ativa:** O CRUD é exclusivo para usuários autenticados[cite: 18].
+* **Rotas Resource:** Utiliza o padrão de rotas `resource` do Laravel para todas as operações do CRUD (`index`, `create`, `store`, `edit`, `update`, `destroy`).
+* **Validação no Servidor:** Os formulários de criação e edição possuem validação server-side para garantir a integridade dos dados.
+* **Mensagens de Sessão (Flash):** O sistema exibe mensagens de sucesso após a criação, atualização ou exclusão de um registro.
+* **Views Limpas:** As telas foram desenvolvidas com HTML e CSS personalizados para uma interface simples e legível.
+* **Tratamento de "Estado Vazio":** A página de listagem exibe uma mensagem específica quando nenhum livro está cadastrado.
 
-## [cite_start]Como Instalar e Rodar [cite: 34]
+## Como Instalar e Rodar
 
 Siga os passos abaixo para executar o projeto em um ambiente local.
 
@@ -72,6 +72,6 @@ A aplicação estará disponível em `http://127.0.0.1:8000`.
 
 ## Usuário de Teste
 
-[cite_start]Ao executar o projeto em um ambiente local, o banco de dados será criado do zero e a tabela de usuários estará vazia.
+Ao executar o projeto em um ambiente local, o banco de dados será criado do zero e a tabela de usuários estará vazia.
 
 Para testar as funcionalidades que exigem autenticação, por favor, **crie um novo usuário** através da página de registro, disponível em `/register`.
