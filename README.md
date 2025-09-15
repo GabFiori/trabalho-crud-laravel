@@ -6,7 +6,7 @@ Este é o projeto final para a unidade curricular Desenvolvimento Web: Introduç
 
 O projeto cumpre com todos os requisitos obrigatórios solicitados:
 
-* **Autenticação Ativa:** O CRUD é exclusivo para usuários autenticados[cite: 18].
+* **Autenticação Ativa:** O CRUD é exclusivo para usuários autenticados.
 * **Rotas Resource:** Utiliza o padrão de rotas `resource` do Laravel para todas as operações do CRUD (`index`, `create`, `store`, `edit`, `update`, `destroy`).
 * **Validação no Servidor:** Os formulários de criação e edição possuem validação server-side para garantir a integridade dos dados.
 * **Mensagens de Sessão (Flash):** O sistema exibe mensagens de sucesso após a criação, atualização ou exclusão de um registro.
