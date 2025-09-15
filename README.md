@@ -19,8 +19,8 @@ Siga os passos abaixo para executar o projeto em um ambiente local.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://url-do-seu-repositorio.git](https://url-do-seu-repositorio.git)
-    cd nome-do-projeto
+    git clone [https://github.com/GabFiori/trabalho-crud-laravel] (https://github.com/GabFiori/trabalho-crud-laravel)
+    cd trabalho-crud-laravel
     ```
 
 2.  **Instale as dependências do PHP:**
